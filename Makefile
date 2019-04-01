@@ -116,7 +116,7 @@ endif
 -include $(DEPS)  
 rebuild: clean all  
 clean :  
-	@$(RM) *.o *.d  
+	@$(RM) *.o *.d  *.out
 cleanall: clean  
 	@$(RM) $(PROGRAM) $(PROGRAM).exe  
 ### End of the Makefile ##  Suggestions are welcome  ## All rights reserved ###  
