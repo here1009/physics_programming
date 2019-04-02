@@ -1,21 +1,9 @@
 // examples
-#include "math.cpp"
+#include "mathmatics.h"
 #include<iostream>
-#include<math.h>
+#include<cmath>
 using namespace std;
-//v(i)=df(i)/dt(i)
-void derivative(float* r, float* f, int n, float * res)
-{
-	int len=n;
-	for(int i=1;i<len-1;i++)
-	{
-		res[i]=(f[i]-f[i-1])/(r[i]-r[i-1]);
-	}
-	res[0]=0.0;
-	res[len-1]=0.0;
-	return;
 
-}
 int main()
 {
 	cout<<"hello"<<endl;
