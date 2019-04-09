@@ -1,5 +1,6 @@
 // examples
 #include "mathmatics.h"
+#include "mesh.h"
 #include<iostream>
 #include<cmath>
 using namespace std;

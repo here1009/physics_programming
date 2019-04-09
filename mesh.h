@@ -9,17 +9,24 @@
 //6. algorithms
 class grid1D
 {
-	private:
-	vector<double> mesh;
-}
+	public:
+		grid1D();
+		grid1D(double r0,double dr);
+		double dr;
+		double r0;
+		std::vector<double> mesh;
+		std::vector<double> f1;
+		double (*f2)(double);
+	
+};
 class grid2D
 {
-	private:
-	vector<grid1D> mesh;
-}
+	public:
+		std::vector<grid1D> mesh;
+};
 class grid3D
 {
-	private:
-	vector<grid2D> mesh;
-}
+	public:
+		std::vector<grid2D> mesh;
+};
 #endif
