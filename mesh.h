@@ -11,12 +11,13 @@ class grid1D
 {
 	public:
 		grid1D();
-		grid1D(double r0,double dr);
+		grid1D(double r0,double dr,int mesh_size);
 		double dr;
 		double r0;
+		int mesh_size;
 		std::vector<double> mesh;
-		std::vector<double> f1;
-		double (*f2)(double);
+		std::vector<double> fr;
+		double (*fp)(double);
 	
 };
 class grid2D

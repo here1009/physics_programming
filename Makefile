@@ -35,7 +35,7 @@ SRCDIRS   := .
 SRCEXTS   := .cpp 
 # The flags used by the cpp (man cpp for more).  
 # CPPFLAGS  := -Wall -Werror # show all warnings and take them as errors  
-CPPFLAGS  :=  
+CPPFLAGS  := -std=c++0x 
 # The compiling flags used only for C.  
 # If it is a C++ program, no need to set these flags.  
 # If it is a C and C++ merging program, set these flags for the C parts.  
